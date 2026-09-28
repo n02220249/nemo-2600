@@ -231,7 +231,7 @@ nemo-2600/
 └── artifacts/
 ```
 
-The repository includes the compiler, public documentation, examples, regression tests, and the tested historical checkpoints.
+The repository includes the compiler interface, public documentation, examples, regression tests, and the tested historical checkpoints. The verified compiler implementation is tracked separately as an atomic source/package addition; see `COMPILER_VERIFICATION.md`.
 
 ## Project goal
 
