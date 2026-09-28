@@ -35,3 +35,14 @@ The bundle's regression suite was also executed:
 The actual compiler bundle was found and verified in the project file store, but the current GitHub connector does not provide a direct binary-file upload from that stored artifact. Therefore this record deliberately does **not** claim that the \`.zip\` or \`.pyz\` bytes are already public in GitHub.
 
 The public repository does contain the verified \`bin/nemo\` command path, examples, and regression tests. The actual compiler source/binary bundle should be mirrored as a later atomic addition rather than substituted or regenerated from memory.
+
+
+## Compiler source
+
+The verified compiler implementation is now mirrored at `src/nemo.py`.
+
+- Source size: 16,300 bytes
+- Source SHA-256: `1d2aede09b6723561480069f2976129b84d62f02ab163075fdfb5ae471345c9d`
+- Verified against the source in the original NeMo Compiler v0.1 package.
+
+The original `dist/nemo.pyz` remains archived in the project file store; the GitHub connector used for this repository does not provide a binary-file upload operation.
