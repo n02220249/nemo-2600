@@ -224,14 +224,12 @@ nemo-2600/
 ├── docs/
 ├── examples/
 ├── src/
-├── nemo.py
 ├── bin/
-├── dist/
 ├── tests/
 └── artifacts/
 ```
 
-The repository includes the compiler interface, public documentation, examples, regression tests, and the tested historical checkpoints. The verified compiler implementation is tracked separately as an atomic source/package addition; see `COMPILER_VERIFICATION.md`.
+The repository includes the compiler source, launcher, public documentation, examples, regression tests, and the tested historical checkpoints. The verified source implementation is tracked at `src/nemo.py`; see `COMPILER_VERIFICATION.md` for the original package verification record.
 
 ## Project goal
 
